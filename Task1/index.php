@@ -142,7 +142,6 @@ sumOfNumber('1221');
 echo '<br><mark><b> Bonus Task </b></mark><br>';
 
 function calculateSumOfCharacter($string){
-
     $sum = 0;
 
     if(preg_match('/^[a-zA-Z]+$/', $string)){

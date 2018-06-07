@@ -15,13 +15,9 @@
 echo '<mark><b> Task 1 </b></mark><br>';
 
 function deleteWhitespaces($string){
-
     $parts = explode('_', $string);
-
     $text = $parts[0];
-
     for($i = 1; $i < count($parts); $i++){
-
         $text .= ucfirst($parts[$i]);
     }
 
